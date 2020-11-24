@@ -1,0 +1,13 @@
+//
+//  LemonBank.xcconfig
+//  LemonBank
+//
+//  Copyright © 2020 ThreatMetrix. All rights reserved.
+//
+
+//Minimal Configuration
+
+OTHER_LDFLAGS         = -ObjC
+CLANG_ENABLE_MODULES  = YES
+CLANG_ENABLE_OBJC_ARC = YES
+ENABLE_BITCODE        = NO

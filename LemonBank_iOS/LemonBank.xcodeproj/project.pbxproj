@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0126F4F61A8D669A004F9588 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0126F4F51A8D669A004F9588 /* Default-568h@2x.png */; };
+		019AC3891A841C6F007B6909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 019AC3881A841C6F007B6909 /* main.m */; };
+		019AC38C1A841C6F007B6909 /* LBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 019AC38B1A841C6F007B6909 /* LBAppDelegate.m */; };
+		019AC38F1A841C6F007B6909 /* LBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019AC38E1A841C6F007B6909 /* LBViewController.m */; };
+		019AC3921A841C6F007B6909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019AC3901A841C6F007B6909 /* Main.storyboard */; };
+		019AC3941A841C6F007B6909 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019AC3931A841C6F007B6909 /* Images.xcassets */; };
+		019AC3C41A84373B007B6909 /* LBProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019AC3C31A84373B007B6909 /* LBProfileController.m */; };
+		5B2A5ADF256C3621000F6676 /* TMXProfiling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2A5ADE256C3621000F6676 /* TMXProfiling.xcframework */; };
+		5B2A5AE0256C3621000F6676 /* TMXProfiling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2A5ADE256C3621000F6676 /* TMXProfiling.xcframework */; };
+		5B2A5AE2256C3F0D000F6676 /* TMXProfilingConnections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2A5AE1256C3F0D000F6676 /* TMXProfilingConnections.xcframework */; };
+		5B2A5AE3256C3F0D000F6676 /* TMXProfilingConnections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2A5AE1256C3F0D000F6676 /* TMXProfilingConnections.xcframework */; };
+		5B2A5AE5256C414E000F6676 /* TMXBehavioralBiometrics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2A5AE4256C414E000F6676 /* TMXBehavioralBiometrics.xcframework */; };
+		5B2A5AE6256C414E000F6676 /* TMXBehavioralBiometrics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2A5AE4256C414E000F6676 /* TMXBehavioralBiometrics.xcframework */; };
+		D001EDFC2411BCD100A3176E /* LBProfilingConnections.m in Sources */ = {isa = PBXBuildFile; fileRef = D001EDF82411B6FC00A3176E /* LBProfilingConnections.m */; };
+		D03D58D924C93AD1006B57DD /* TMXProfilingConnections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03D58D624C93AD1006B57DD /* TMXProfilingConnections.xcframework */; };
+		D03D58DA24C93AD1006B57DD /* TMXProfilingConnections.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D03D58D624C93AD1006B57DD /* TMXProfilingConnections.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D03D58DB24C93AD1006B57DD /* TMXBehavioralBiometrics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03D58D724C93AD1006B57DD /* TMXBehavioralBiometrics.xcframework */; };
+		D03D58DC24C93AD1006B57DD /* TMXBehavioralBiometrics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D03D58D724C93AD1006B57DD /* TMXBehavioralBiometrics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D03D58DD24C93AD1006B57DD /* TMXProfiling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03D58D824C93AD1006B57DD /* TMXProfiling.xcframework */; };
+		D03D58DE24C93AD1006B57DD /* TMXProfiling.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D03D58D824C93AD1006B57DD /* TMXProfiling.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D03D58E124C93B14006B57DD /* TMXProfiling.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D03D58D824C93AD1006B57DD /* TMXProfiling.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D03D58E224C93B14006B57DD /* TMXProfilingConnections.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D03D58D624C93AD1006B57DD /* TMXProfilingConnections.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D03D58E324C93FA4006B57DD /* TMXBehavioralBiometrics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03D58D724C93AD1006B57DD /* TMXBehavioralBiometrics.xcframework */; };
+		D03D58E424C93FA4006B57DD /* TMXBehavioralBiometrics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D03D58D724C93AD1006B57DD /* TMXBehavioralBiometrics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D077CCB42458F0E20018879E /* LemonBankProfilingConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077CCB32458F0E20018879E /* LemonBankProfilingConnections.swift */; };
+		F644465C1C4621690057A658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F644465A1C4621690057A658 /* Main.storyboard */; };
+		F6C64B231C46238600767E69 /* LemonBankAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C64B201C46238600767E69 /* LemonBankAppDelegate.swift */; };
+		F6C64B241C46238600767E69 /* LemonBankProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C64B211C46238600767E69 /* LemonBankProfileController.swift */; };
+		F6C64B251C46238600767E69 /* LemonBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C64B221C46238600767E69 /* LemonBankViewController.swift */; };
+		F6C64B261C4623C000767E69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019AC3931A841C6F007B6909 /* Images.xcassets */; };
+		F6C64B271C4623CB00767E69 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0126F4F51A8D669A004F9588 /* Default-568h@2x.png */; };
+		F6F1247A1D41A07C004C2CD5 /* Default-375w-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F124781D41A07C004C2CD5 /* Default-375w-667h@2x.png */; };
+		F6F1247B1D41A07C004C2CD5 /* Default-414w-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F124791D41A07C004C2CD5 /* Default-414w-736h@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D03D58DF24C93AE5006B57DD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D03D58E124C93B14006B57DD /* TMXProfiling.xcframework in Embed Frameworks */,
+				D03D58E224C93B14006B57DD /* TMXProfilingConnections.xcframework in Embed Frameworks */,
+				D03D58E424C93FA4006B57DD /* TMXBehavioralBiometrics.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F675544E20F464AB00784ED3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D03D58DE24C93AD1006B57DD /* TMXProfiling.xcframework in Embed Frameworks */,
+				D03D58DA24C93AD1006B57DD /* TMXProfilingConnections.xcframework in Embed Frameworks */,
+				D03D58DC24C93AD1006B57DD /* TMXBehavioralBiometrics.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0126F4F51A8D669A004F9588 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		019AC3831A841C6F007B6909 /* LemonBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		019AC3871A841C6F007B6909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019AC3881A841C6F007B6909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		019AC38A1A841C6F007B6909 /* LBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAppDelegate.h; sourceTree = "<group>"; };
+		019AC38B1A841C6F007B6909 /* LBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppDelegate.m; sourceTree = "<group>"; };
+		019AC38D1A841C6F007B6909 /* LBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBViewController.h; sourceTree = "<group>"; };
+		019AC38E1A841C6F007B6909 /* LBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBViewController.m; sourceTree = "<group>"; };
+		019AC3911A841C6F007B6909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		019AC3931A841C6F007B6909 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		019AC3C01A841DBB007B6909 /* LemonBank.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LemonBank.entitlements; sourceTree = "<group>"; };
+		019AC3C21A84373B007B6909 /* LBProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBProfileController.h; sourceTree = "<group>"; };
+		019AC3C31A84373B007B6909 /* LBProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBProfileController.m; sourceTree = "<group>"; };
+		5B2A5ADE256C3621000F6676 /* TMXProfiling.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TMXProfiling.xcframework; sourceTree = "<group>"; };
+		5B2A5AE1256C3F0D000F6676 /* TMXProfilingConnections.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TMXProfilingConnections.xcframework; sourceTree = "<group>"; };
+		5B2A5AE4256C414E000F6676 /* TMXBehavioralBiometrics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TMXBehavioralBiometrics.xcframework; sourceTree = "<group>"; };
+		D001EDF82411B6FC00A3176E /* LBProfilingConnections.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBProfilingConnections.m; sourceTree = "<group>"; };
+		D001EDFA2411BC3A00A3176E /* LBProfilingConnections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBProfilingConnections.h; sourceTree = "<group>"; };
+		D001EDFB2411BC8D00A3176E /* TMXProfilingConnectionsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMXProfilingConnectionsProtocol.h; sourceTree = "<group>"; };
+		D03D58D624C93AD1006B57DD /* TMXProfilingConnections.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TMXProfilingConnections.xcframework; sourceTree = "<group>"; };
+		D03D58D724C93AD1006B57DD /* TMXBehavioralBiometrics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TMXBehavioralBiometrics.xcframework; sourceTree = "<group>"; };
+		D03D58D824C93AD1006B57DD /* TMXProfiling.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TMXProfiling.xcframework; sourceTree = "<group>"; };
+		D077CCB32458F0E20018879E /* LemonBankProfilingConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonBankProfilingConnections.swift; sourceTree = "<group>"; };
+		D077CCB52458F1060018879E /* TMXProfilingConnectionsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMXProfilingConnectionsProtocol.h; sourceTree = "<group>"; };
+		D077CCB62458F2950018879E /* LemonBankSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LemonBankSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		F64446541C4621690057A658 /* LemonBankSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonBankSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F644465B1C4621690057A658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F64446601C4621690057A658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F64446621C4621690057A658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F673E56F1D76A31400B92644 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		F68CC7A51F70A7CB00F4DFF6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F68EC6242164AA6400F3980D /* GuardSpec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GuardSpec.cpp; sourceTree = "<group>"; };
+		F68EC6252164AA6400F3980D /* GuardSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuardSpec.h; sourceTree = "<group>"; };
+		F6AC5F0121656E7400E1D306 /* LemonBankExtra.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LemonBankExtra.xcconfig; sourceTree = "<group>"; };
+		F6C194F01C59984400F7F89E /* LemonBank.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LemonBank.xcconfig; sourceTree = "<group>"; };
+		F6C64B1F1C46232600767E69 /* LemonBankSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LemonBankSwift.entitlements; sourceTree = "<group>"; };
+		F6C64B201C46238600767E69 /* LemonBankAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonBankAppDelegate.swift; sourceTree = "<group>"; };
+		F6C64B211C46238600767E69 /* LemonBankProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonBankProfileController.swift; sourceTree = "<group>"; };
+		F6C64B221C46238600767E69 /* LemonBankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonBankViewController.swift; sourceTree = "<group>"; };
+		F6F124781D41A07C004C2CD5 /* Default-375w-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-375w-667h@2x.png"; sourceTree = "<group>"; };
+		F6F124791D41A07C004C2CD5 /* Default-414w-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-414w-736h@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019AC3801A841C6F007B6909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2A5AE2256C3F0D000F6676 /* TMXProfilingConnections.xcframework in Frameworks */,
+				5B2A5AE5256C414E000F6676 /* TMXBehavioralBiometrics.xcframework in Frameworks */,
+				5B2A5ADF256C3621000F6676 /* TMXProfiling.xcframework in Frameworks */,
+				D03D58E324C93FA4006B57DD /* TMXBehavioralBiometrics.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64446511C4621690057A658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03D58D924C93AD1006B57DD /* TMXProfilingConnections.xcframework in Frameworks */,
+				5B2A5AE6256C414E000F6676 /* TMXBehavioralBiometrics.xcframework in Frameworks */,
+				D03D58DB24C93AD1006B57DD /* TMXBehavioralBiometrics.xcframework in Frameworks */,
+				5B2A5AE3256C3F0D000F6676 /* TMXProfilingConnections.xcframework in Frameworks */,
+				5B2A5AE0256C3621000F6676 /* TMXProfiling.xcframework in Frameworks */,
+				D03D58DD24C93AD1006B57DD /* TMXProfiling.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019AC37A1A841C6F007B6909 = {
+			isa = PBXGroup;
+			children = (
+				F6F124781D41A07C004C2CD5 /* Default-375w-667h@2x.png */,
+				F6F124791D41A07C004C2CD5 /* Default-414w-736h@3x.png */,
+				0126F4F51A8D669A004F9588 /* Default-568h@2x.png */,
+				F6C194EF1C5997F000F7F89E /* Config */,
+				F64446551C4621690057A658 /* LemonBankSwift */,
+				019AC3851A841C6F007B6909 /* LemonBank */,
+				019AC3C11A841DE7007B6909 /* Frameworks */,
+				019AC3841A841C6F007B6909 /* Products */,
+				5B2A5ADE256C3621000F6676 /* TMXProfiling.xcframework */,
+				5B2A5AE1256C3F0D000F6676 /* TMXProfilingConnections.xcframework */,
+				5B2A5AE4256C414E000F6676 /* TMXBehavioralBiometrics.xcframework */,
+			);
+			sourceTree = "<group>";
+		};
+		019AC3841A841C6F007B6909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019AC3831A841C6F007B6909 /* LemonBank.app */,
+				F64446541C4621690057A658 /* LemonBankSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		019AC3851A841C6F007B6909 /* LemonBank */ = {
+			isa = PBXGroup;
+			children = (
+				D001EDF72411B5F800A3176E /* LBProfilingConnections */,
+				019AC3C01A841DBB007B6909 /* LemonBank.entitlements */,
+				019AC3C21A84373B007B6909 /* LBProfileController.h */,
+				019AC3C31A84373B007B6909 /* LBProfileController.m */,
+				019AC38A1A841C6F007B6909 /* LBAppDelegate.h */,
+				019AC38B1A841C6F007B6909 /* LBAppDelegate.m */,
+				019AC38D1A841C6F007B6909 /* LBViewController.h */,
+				019AC38E1A841C6F007B6909 /* LBViewController.m */,
+				019AC3901A841C6F007B6909 /* Main.storyboard */,
+				019AC3931A841C6F007B6909 /* Images.xcassets */,
+				019AC3861A841C6F007B6909 /* Supporting Files */,
+				F653FBC92164AD8900365979 /* GuardSpec */,
+			);
+			path = LemonBank;
+			sourceTree = "<group>";
+		};
+		019AC3861A841C6F007B6909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				019AC3871A841C6F007B6909 /* Info.plist */,
+				019AC3881A841C6F007B6909 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		019AC3C11A841DE7007B6909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03D58D724C93AD1006B57DD /* TMXBehavioralBiometrics.xcframework */,
+				D03D58D824C93AD1006B57DD /* TMXProfiling.xcframework */,
+				D03D58D624C93AD1006B57DD /* TMXProfilingConnections.xcframework */,
+				F68CC7A51F70A7CB00F4DFF6 /* libz.tbd */,
+				F673E56F1D76A31400B92644 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D001EDF72411B5F800A3176E /* LBProfilingConnections */ = {
+			isa = PBXGroup;
+			children = (
+				D001EDFB2411BC8D00A3176E /* TMXProfilingConnectionsProtocol.h */,
+				D001EDFA2411BC3A00A3176E /* LBProfilingConnections.h */,
+				D001EDF82411B6FC00A3176E /* LBProfilingConnections.m */,
+			);
+			path = LBProfilingConnections;
+			sourceTree = "<group>";
+		};
+		D077CCB22458F0B70018879E /* LemonBankProfilingConnections */ = {
+			isa = PBXGroup;
+			children = (
+				D077CCB52458F1060018879E /* TMXProfilingConnectionsProtocol.h */,
+				D077CCB32458F0E20018879E /* LemonBankProfilingConnections.swift */,
+			);
+			path = LemonBankProfilingConnections;
+			sourceTree = "<group>";
+		};
+		F64446551C4621690057A658 /* LemonBankSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D077CCB22458F0B70018879E /* LemonBankProfilingConnections */,
+				D077CCB62458F2950018879E /* LemonBankSwift-Bridging-Header.h */,
+				F6C64B201C46238600767E69 /* LemonBankAppDelegate.swift */,
+				F6C64B211C46238600767E69 /* LemonBankProfileController.swift */,
+				F6C64B221C46238600767E69 /* LemonBankViewController.swift */,
+				F6C64B1F1C46232600767E69 /* LemonBankSwift.entitlements */,
+				F644465A1C4621690057A658 /* Main.storyboard */,
+				F644465F1C4621690057A658 /* LaunchScreen.storyboard */,
+				F64446621C4621690057A658 /* Info.plist */,
+			);
+			path = LemonBankSwift;
+			sourceTree = "<group>";
+		};
+		F653FBC92164AD8900365979 /* GuardSpec */ = {
+			isa = PBXGroup;
+			children = (
+				F68EC6242164AA6400F3980D /* GuardSpec.cpp */,
+				F68EC6252164AA6400F3980D /* GuardSpec.h */,
+			);
+			path = GuardSpec;
+			sourceTree = "<group>";
+		};
+		F6C194EF1C5997F000F7F89E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F6C194F01C59984400F7F89E /* LemonBank.xcconfig */,
+				F6AC5F0121656E7400E1D306 /* LemonBankExtra.xcconfig */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		019AC3821A841C6F007B6909 /* LemonBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019AC3A61A841C6F007B6909 /* Build configuration list for PBXNativeTarget "LemonBank" */;
+			buildPhases = (
+				019AC3811A841C6F007B6909 /* Resources */,
+				019AC37F1A841C6F007B6909 /* Sources */,
+				019AC3801A841C6F007B6909 /* Frameworks */,
+				F62098B42164A34300A60B79 /* EnsureIT Post-Process Bundle */,
+				D03D58DF24C93AE5006B57DD /* Embed Frameworks */,
+				5B2A5AE7256C4212000F6676 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LemonBank;
+			productName = LemonBank;
+			productReference = 019AC3831A841C6F007B6909 /* LemonBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F64446531C4621690057A658 /* LemonBankSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64446791C46216A0057A658 /* Build configuration list for PBXNativeTarget "LemonBankSwift" */;
+			buildPhases = (
+				F64446501C4621690057A658 /* Sources */,
+				F64446511C4621690057A658 /* Frameworks */,
+				F64446521C4621690057A658 /* Resources */,
+				F675544E20F464AB00784ED3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LemonBankSwift;
+			productName = LemonBankSwift;
+			productReference = F64446541C4621690057A658 /* LemonBankSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019AC37B1A841C6F007B6909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = ThreatMetrix;
+				TargetAttributes = {
+					019AC3821A841C6F007B6909 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 8VDTV2QZMS;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
+					};
+					F64446531C4621690057A658 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8VDTV2QZMS;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 019AC37E1A841C6F007B6909 /* Build configuration list for PBXProject "LemonBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 019AC37A1A841C6F007B6909;
+			productRefGroup = 019AC3841A841C6F007B6909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019AC3821A841C6F007B6909 /* LemonBank */,
+				F64446531C4621690057A658 /* LemonBankSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019AC3811A841C6F007B6909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F1247B1D41A07C004C2CD5 /* Default-414w-736h@3x.png in Resources */,
+				019AC3921A841C6F007B6909 /* Main.storyboard in Resources */,
+				F6F1247A1D41A07C004C2CD5 /* Default-375w-667h@2x.png in Resources */,
+				019AC3941A841C6F007B6909 /* Images.xcassets in Resources */,
+				0126F4F61A8D669A004F9588 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64446521C4621690057A658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C64B271C4623CB00767E69 /* Default-568h@2x.png in Resources */,
+				F6C64B261C4623C000767E69 /* Images.xcassets in Resources */,
+				F644465C1C4621690057A658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B2A5AE7256C4212000F6676 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		F62098B42164A34300A60B79 /* EnsureIT Post-Process Bundle */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(ENSUREIT_BIN)",
+			);
+			name = "EnsureIT Post-Process Bundle";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This file is a template. Please refer to the \"Modifying the Xcode Project\" section of the\n# \"Applying Protection\" chapter in the \"EnsureIT Developers Guide\" for its use.\n\nif [[ \"${SCRIPT_INPUT_FILE_0}\" == \"\" ]]\nthen\necho \"EnsureIT protection is not enabled. Skipping bundle post-processing.\"\nexit 0\nfi\n\nPOST_PROCESS_SCRIPT=\"${SCRIPT_INPUT_FILE_0}/xcode-post-process-bundle.py\"\nif [[ ! -e \"${POST_PROCESS_SCRIPT}\" ]]\nthen\necho \"${POST_PROCESS_SCRIPT} does not exist. The script may have been moved from its original install location. Please update the \\\"Input File\\\" in the EnsureIT Post-Process Bundle Build Phase in the Xcode project with the correct path to the xcode-post-process-bundle.py script.\"\nexit 1\nfi\n\n# Post-Process the protected bundle\nif [[ \"${CONFIGURATION}\" == \"Debug\" ]]\nthen\n# Disable the bundle audit in the Debug configuration since strings identifying the EnsureIT protection are present when using an EnsureIT debug mode protection.\npython \"${POST_PROCESS_SCRIPT}\" -disable-audit\nelse\n# Error if an audit warning is seen during a Release build\npython \"${POST_PROCESS_SCRIPT}\" -error-on-audit-failure\nfi\n\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019AC37F1A841C6F007B6909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019AC38F1A841C6F007B6909 /* LBViewController.m in Sources */,
+				019AC38C1A841C6F007B6909 /* LBAppDelegate.m in Sources */,
+				019AC3C41A84373B007B6909 /* LBProfileController.m in Sources */,
+				D001EDFC2411BCD100A3176E /* LBProfilingConnections.m in Sources */,
+				019AC3891A841C6F007B6909 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64446501C4621690057A658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C64B241C46238600767E69 /* LemonBankProfileController.swift in Sources */,
+				F6C64B231C46238600767E69 /* LemonBankAppDelegate.swift in Sources */,
+				D077CCB42458F0E20018879E /* LemonBankProfilingConnections.swift in Sources */,
+				F6C64B251C46238600767E69 /* LemonBankViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		019AC3901A841C6F007B6909 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019AC3911A841C6F007B6909 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F644465A1C4621690057A658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F644465B1C4621690057A658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F644465F1C4621690057A658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64446601C4621690057A658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		019AC3A41A841C6F007B6909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		019AC3A51A841C6F007B6909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		019AC3A71A841C6F007B6909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AC5F0121656E7400E1D306 /* LemonBankExtra.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LemonBank/LemonBank.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LemonBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threatmetrix.LemonBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		019AC3A81A841C6F007B6909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AC5F0121656E7400E1D306 /* LemonBankExtra.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LemonBank/LemonBank.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LemonBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threatmetrix.LemonBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		F644467A1C46216A0057A658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C194F01C59984400F7F89E /* LemonBank.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LemonBankSwift/LemonBankSwift.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8VDTV2QZMS;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = LemonBankSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threatmetrix.LemonBankSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LemonBankSwift/LemonBankSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F644467B1C46216A0057A658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C194F01C59984400F7F89E /* LemonBank.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LemonBankSwift/LemonBankSwift.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8VDTV2QZMS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = LemonBankSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threatmetrix.LemonBankSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LemonBankSwift/LemonBankSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019AC37E1A841C6F007B6909 /* Build configuration list for PBXProject "LemonBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019AC3A41A841C6F007B6909 /* Debug */,
+				019AC3A51A841C6F007B6909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019AC3A61A841C6F007B6909 /* Build configuration list for PBXNativeTarget "LemonBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019AC3A71A841C6F007B6909 /* Debug */,
+				019AC3A81A841C6F007B6909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64446791C46216A0057A658 /* Build configuration list for PBXNativeTarget "LemonBankSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F644467A1C46216A0057A658 /* Debug */,
+				F644467B1C46216A0057A658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019AC37B1A841C6F007B6909 /* Project object */;
+}
